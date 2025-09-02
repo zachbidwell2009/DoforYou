@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Products - Do for You</title>
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #fdfdfd;
+    color: #1a1a2e;
+  }
+
+  header {
+    background-color: #1a1a2e;
+    color: gold;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: gold;
+  }
+
+  nav input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  h1, h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #1a1a2e;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 20px 40px;
+  }
+
+  .product-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  }
+
+  .product-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .product-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #1a1a2e;
+  }
+
+  .product-card p {
+    font-size: 1em;
+    color: #666;
+  }
+
+  .product-card button {
+    background-color: #ffd700;
+    color: #1a1a2e;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  .product-card button:hover {
+    background-color: #1a1a2e;
+    color: gold;
+  }
+
+  footer {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  footer a {
+    color: #f39c12;
+    margin: 0 8px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  footer a:hover {
+    color: gold;
+  }
+
+  section {
+    margin-bottom: 50px;
+  }
+
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Do for You</div>
+  <nav>
+    <a href="page 1.html">Home</a>
+    <a href="hot-products.html">Hot Products</a>
+    <a href="new-arrivals.html">New Arrivals</a>
+    <a href="contacts.html">Contact</a>
+    <input type="text" placeholder="Search...">
+  </nav>
+</header>
+
+<h1>All Products</h1>
+
+<!-- Hoodies -->
+<h2>Hoodies</h2>
+<section class="product-grid">
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Hoodie 1</h3><p>$49.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Hoodie 2</h3><p>$52.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Hoodie 3</h3><p>$59.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Hoodie 4</h3><p>$55.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Hoodie 5</h3><p>$49.99</p><button>Add to Cart</button></div>
+</section>
+
+<!-- Shirts -->
+<h2>Shirts</h2>
+<section class="product-grid">
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Tee 1</h3><p>$29.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Tee 2</h3><p>$32.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Tee 3</h3><p>$27.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Tee 4</h3><p>$34.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Tee 5</h3><p>$29.99</p><button>Add to Cart</button></div>
+</section>
+
+<!-- Jackets -->
+<h2>Jackets</h2>
+<section class="product-grid">
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Jacket 1</h3><p>$79.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Jacket 2</h3><p>$84.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Jacket 3</h3><p>$89.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Jacket 4</h3><p>$79.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Jacket 5</h3><p>$94.99</p><button>Add to Cart</button></div>
+</section>
+
+<!-- Shoes -->
+<h2>Shoes</h2>
+<section class="product-grid">
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Sneakers 1</h3><p>$59.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Sneakers 2</h3><p>$62.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Sneakers 3</h3><p>$65.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Sneakers 4</h3><p>$59.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Sneakers 5</h3><p>$69.99</p><button>Add to Cart</button></div>
+</section>
+
+<!-- Accessories -->
+<h2>Accessories</h2>
+<section class="product-grid">
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Sunglasses 1</h3><p>$24.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Sunglasses 2</h3><p>$27.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Belt 1</h3><p>$19.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Belt 2</h3><p>$22.99</p><button>Add to Cart</button></div>
+  <div class="product-card"><img src="https://via.placeholder.com/220x220" alt=""><h3>Taruawar Hat 1</h3><p>$29.99</p><button>Add to Cart</button></div>
+</
