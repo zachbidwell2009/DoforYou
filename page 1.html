@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do for You - Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #1a1a2e;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: gold;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: gold;
+    }
+
+    nav input {
+      padding: 0.4rem;
+      border-radius: 20px;
+      border: none;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero button {
+      background: gold;
+      color: #1a1a2e;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .hero button:hover {
+      background: #e6c300;
+    }
+
+    /* Sections */
+    section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 2rem;
+      color: #16213e;
+    }
+
+    .product-grid {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 15px;
+      padding: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 220px;
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product-card h3 {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+      color: #0f3460;
+    }
+
+    .product-card p {
+      color: #444;
+    }
+
+    .product-card button {
+      background: #0f3460;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .product-card button:hover {
+      background: gold;
+      color: #0f3460;
+    }
+
+    /* Newsletter */
+    .newsletter {
+      background: #16213e;
+      color: white;
+      padding: 2rem;
+      border-radius: 15px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .newsletter input {
+      padding: 0.6rem;
+      width: 60%;
+      border: none;
+      border-radius: 20px;
+      margin-right: 0.5rem;
+    }
+
+    .newsletter button {
+      background: gold;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      background: #1a1a2e;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    footer a {
+      color: gold;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Do for You</div>
+  <nav>
+    <a href="hot-products.html">Hot Products</a>
+    <a href="New Arivals.html">New Arrivals</a>
+    <a href="contacts.html">Contact</a>
+    <a href="all.html">All Products</a>
+    <input type="text" placeholder="Search...">
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Affordable Quality Fashion for Everyone</h1>
+  <button onclick="window.location.href='hot-products.html'">Shop Now</button>
+</section>
+
+<!-- Hot Products Section -->
+<section id="hot">
+  <h2>Hot Selling Products</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/220x220" alt="Classic Tee">
+      <h3>Classic Tee</h3>
+      <p>$29.99</p>
+      <button onclick="window.location.href='hot-products.html'">View More</button>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/220x220" alt="Stylish Hoodie">
+      <h3>Hoodie</h3>
+      <p>$49.99</p>
+      <button onclick="window.location.href='hot-products.html'">View More</button>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/220x220" alt="Denim Jacket">
+      <h3>Denim Jacket</h3>
+      <p>$79.99</p>
+      <button onclick="window.location.href='hot-products.html'">View More</button>
+    </div>
+  </div>
+</section>
+
+<!-- New Arrivals Section -->
+<section id="new">
+  <h2>New Arrivals</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/220x220" alt="Inflatable Taruawar 1">
+      <h3>Inflatable Taruawar 1</h3>
+      <p>$39.99</p>
+      <button onclick="window.location.href='new-arrivals.html'">View More</button>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/220x220" alt="Taruawar Tee">
+      <h3>Taruawar Tee</h3>
+      <p>$29.99</p>
+      <button onclick="window.location.href='new-arrivals.html'">View More</button>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/220x220" alt="Taruawar Hoodie">
+      <h3>Taruawar Hoodie</h3>
+      <p>$49.99</p>
+      <button onclick="window.location.href='new-arrivals.html'">View More</button>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter">
+  <h2>Subscribe to our Newsletter</h2>
+  <input type="email" placeholder="Enter your email">
+  <button>Subscribe</button>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Do for You | 
+  <a href="#">Privacy Policy</a> | 
+  <a href="#">Terms & Conditions</a><br>
+  Email: store@doforyou.com
+</footer>
+
+</body>
+</html>
